@@ -1,0 +1,11 @@
+https://github.com/tporadowski/redis/releases
+
+redis instalado
+postgress instalado
+
+npm install
+npm run db:generate
+npm run db:migrate:dev  (hacerlo desde el git bash, cambiar la conexion .env en postgress y crear la db evolution en postgress)
+npm run build
+npm run dev:server
+npm run start:prod
